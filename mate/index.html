@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MATE!</title>
+    <meta name="description" content="Portfolio for world-famous company" />
+    <meta name="author" content="seok" />
+    <script
+      src="https://kit.fontawesome.com/bb32c28a29.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat+Subrayada&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar">
+      <div class="navbar__menu">
+        <ul>
+          <li class="navbar__menu__item" data-link="#home">Home</li>
+          <li class="navbar__menu__item" data-link="#about">About</li>
+          <li class="navbar__menu__item" data-link="#skills">Skills</li>
+          <!-- <li class="navbar__menu__item" data-link="#work">Our Work</li> -->
+          <li class="navbar__menu__item" data-link="#contact">Contact</li>
+        </ul>
+      </div>
+      <!-- toggle button -->
+      <button class="navbar__toggle-btn">
+        <i class="fas fa-hamburger opener"></i>
+        <i class="fas fa-times closer close"></i>
+        <!-- <i class="fas fa-bars"></i> -->
+      </button>
+    </nav>
+    <!-- Home -->
+    <section id="home">
+      <div class="home__title">
+        <img src="images/tibahLogo.png" alt="" width="80px" height="80px" />
+        <h1><p>Mate</p><br>by INDEXFINGER</h1>
+      </div>
+      <div class="home__services">
+        <ul>
+          <!-- <li><img src="images/lullabearLogo.png" alt="" />Lullabear</li>
+          <li><img src="images/togetherooLogo.png" alt="" />Togetheroo</li> -->
+          <!-- <li><img src="images/tibahLogo.png" alt="" />Tibah</li> -->
+        </ul>
+      </div>
+    </section>
+    <!-- About -->
+    <section id="about" class="section section__container">
+      <h1>About Us</h1>
+      <p>
+        Index Finger 팀은 웹&앱 개발과 디자인 전문로 구성
+        되어있습니다. 수험생 전용 플래너 Mate를 운영 중입니다. 향후에도 더 나은 서비스를 개발& 운영 하고
+        고객과 소통하며 스마트폰 스크린을 누르는 여러분의 손가락 끝에서
+        시작되는 더 나은 세상에 이바지 하겠습니다.
+      </p>
+      <div class="about__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h2 class="major__title">
+            Front-end
+          </h2>
+          <div class="major__description">
+            HTML, CSS, JavaScript<br />React, WebAPIs
+          </div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fas fa-mobile"></i>
+          </div>
+          <h2 class="major__title">Mobile</h2>
+          <div class="major__description">
+            Android, iOS, React Native<br />Java, Swift, Kotlin
+          </div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fas fa-server"></i>
+          </div>
+          <h2 class="major__title">Back-end</h2>
+          <div class="major__description">Java, JavaScript<br />Node JS</div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <h2 class="major__title">Design</h2>
+          <div class="major__description">Photoshop, XD<br />Illustrator</div>
+        </div>
+      </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="section">
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p>
+          Index Finger의 개발&디자인 역량은 자부합니다.
+          Index Finger는 웹(HTML&CSS/JavaScript/React), 앱(Java,React Native,Swift,NodeJS) 기획&개발에서 디자인에 이르기까지의 모든 과정을 직접 해냅니다.
+           <br />
+        </p>
+        <div class="skillset">
+          <div class="skillset__left">
+            <h3 class="skillset__title">
+              skills
+            </h3>
+            <div class="skill">
+              <div class="skill__description">
+                <span>HTML&CSS</span>
+                <span>100%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 100%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>JavaScript</span>
+                <span>95%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 95%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Java</span>
+                <span>100%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 100%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>React&React Native</span>
+                <span>80%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Swift</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>NodeJS</span>
+                <span>90%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value" style="width: 90%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill__description">
+                <span>Design</span>
+                <span>100%</span>
+              </div>
+              <div class="skill__bar">
+                <div class="skill__value"></div>
+              </div>
+            </div>
+          </div>
+          <div class="skillset__right">
+            <div class="tools">
+              <h3>Tools</h3>
+              <ul class="tools__list">
+                <li><span>Android/iOS development tools</span></li>
+                <li><span>Visual Studio</span></li>
+                <li><span>Adobe Programs</span></li>
+                <li><span>Team Foundation</span></li>
+              </ul>
+            </div>
+            <div class="etc">
+              <h3>Etc</h3>
+              <ul class="etc__list">
+                <li><span>Git</span></li>
+                <li><span>Algorithm</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Work -->
+    <!-- <section id="work" class="section">
+      <h1>My Work</h1>
+      <h3>Projects</h3>
+      <div class="work__categories">
+        <button class="category_btn active" data-filter="*">
+          All<span class="category__count">8</span>
+        </button>
+        <button class="category_btn" data-filter="lullabear">
+          LullaBear<span class="category__count">3</span>
+        </button>
+        <button class="category_btn" data-filter="togetheroo">
+          Togetheroo<span class="category__count">2</span>
+        </button>
+        <button class="category_btn" data-filter="tibah">
+          Tibah<span class="category__count">3</span>
+        </button>
+      </div> -->
+      <div class="section__container">
+        <!-- <div class="work__projects">
+          
+          <a href="" class="project" target="blank" data-type="lullabear">
+            <img
+              src="images/lullabear1-min.png"
+              alt=""
+              class="project__image"
+            />
+            <div class="project__description">
+              <h3>LullaBear</h3>
+              <span>LullaBear for Android & iOS</span>
+            </div>
+          </a>
+          <a href="" class="project" target="blank" data-type="lullabear">
+            <img
+              src="images/lullabear2-min.png"
+              alt=""
+              class="project__image"
+            />
+            <div class="project__description">
+              <h3>LullaBear</h3>
+              <span>LullaBear for Android & iOS</span>
+            </div>
+          </a>
+          <a href="" class="project" target="blank" data-type="lullabear">
+            <img
+              src="images/lullabear3-min.png"
+              alt=""
+              class="project__image"
+            />
+            <div class="project__description">
+              <h3>LullaBear</h3>
+              <span>LullaBear for Android & iOS</span>
+            </div>
+          </a>
+          <a href="" class="project" target="blank" data-type="togetheroo">
+            <img
+              src="images/togetherooLogo.png"
+              alt=""
+              class="project__image"
+            />
+            <div class="project__description">
+              <h3>Togetheroo</h3>
+              <span>Togetheroo website</span>
+            </div>
+          </a>
+          <a href="" class="project" target="blank" data-type="togetheroo">
+            <img src="images/togetheroo2.jpeg" alt="" class="project__image" />
+            <div class="project__description">
+              <h3>Togetheroo</h3>
+              <span>Togetheroo website</span>
+            </div>
+          </a>
+          <a href="" class="project" target="blank" data-type="tibah">
+            <img src="images/tibah1-min.png" alt="" class="project__image" />
+            <div class="project__description">
+              <h3>Tibah</h3>
+              <span>Tibah for Android&iOS</span>
+            </div>
+          </a>
+          <a href="" class="project" target="blank" data-type="tibah">
+            <img src="images/tibah2-min.png" alt="" class="project__image" />
+            <div class="project__description">
+              <h3>Tibah</h3>
+              <span>Tibah for Android&iOS</span>
+            </div>
+          </a>
+          <a href="" class="project" target="blank" data-type="tibah">
+            <img src="images/tibah3-min.png" alt="" class="project__image" />
+            <div class="project__description">
+              <h3>Tibah</h3>
+              <span>Tibah for Android & iOS</span>
+            </div>
+          </a>
+        </div> -->
+      </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <h1 class="contact__title">Let's talk</h1>
+      <h2 class="contact__email">mate.everyday.team@gmail.com</h2>
+      <div class="contact__links">
+        <a href="">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.facebook.com/tibah.everyday.5">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://instagram.com/tibah.everyday?igshid=24d0vvp4wb4"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div class="contact__info">
+        <ul>
+          <li>사업자등록번호:543-26-01073</li>
+          <li>주소지:경기도 고양시 덕양구 향기로30 113동 1901호</li>
+          <li>전화번호:+82)10-8025-1241</li>
+          <!-- <li>통신판매업신고번호:-</li> -->
+          <li><a href="privacypolicy.html">개인정보처리방침(한)</a></li>
+          <li><a href="privacypolicyEng.html">PrivacyPolicy(ENG)</a></li>
+          <li><a href="terms.html">서비스이용약관</a></li>
+        </ul>
+      </div>
+      <p class="contact_rights">2021 Mate - All rights reserved</p>
+    </section>
+    <!-- Arrow up -->
+    <button class="arrow-up">
+      <i class="fas fa-hand-point-up"></i>
+    </button>
+    <!-- <div class="example">
+      <div class="a">
+        <div class="d">d</div>
+        <div class="e">e</div>
+        <div class="f">f</div>
+      </div>
+      <div class="b">b</div>
+      <div class="c">c</div>
+    </div> -->
+  </body>
+</html>
